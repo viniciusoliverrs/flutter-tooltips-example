@@ -26,7 +26,7 @@ class _CommonTooltipState extends State<CommonTooltip> {
   @override
   Widget build(BuildContext context) {
     return JustTheTooltip(
-      barrierDismissible: true,
+      barrierDismissible: false,
       onDismiss: widget.onDismiss,
       controller: widget.controller,
       content: widget.content,
